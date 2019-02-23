@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+@import "partials/variables";
+
+@import "partials/screen";
+
+@import "partials/code-highlighting";
+
+/* # =================================================================
+   # Access key table
+   # ================================================================= */
+#nav_accesskeys {
+	margin-bottom : 0;
+	margin-top : 0;
+	width : 100% /* Stop caption from wrapping */
+}
+
+#nav_accesskeys caption,
+#nav_validation {
+	text-indent : #{$baseline}em
+}
+
+#nav_accesskeys thead {/* Hide heading */
+	display : none
+}
+
+#nav_accesskeys tr {/* Compact display of rows */
+	display : inline-block
+}
+
+#nav_accesskeys kbd {
+	background-color : rgb(239, 240, 242);
+	border-top-color : rgb(245, 245, 245);
+	border-radius : .25rem;
+	border-top-style : solid;
+	border-top-width : .05rem;
+	box-shadow : rgb(232, 232, 232) 0 0 1.25rem 0 inset, rgb(195, 195, 195) 0 .05rem 0 0, rgb(201, 201, 201) 0 .1rem 0 0, rgb(51, 51, 51) 0 .1rem .15rem 0;
+	box-sizing : border-box;
+	color : rgb(90, 90, 90);
+	cursor : auto;
+	display : block;
+	font-size : .7em;
+	font-style : normal;
+	font-variant-caps : normal;
+	height : #{$baseline}rem /* On the assumption the html element has a line-height of “1.4” */;
+	line-height : #{$baseline}rem /* On the assumption the html element has a line-height of “1.4” */;
+	list-style-type : none;
+	text-align : center;
+	text-shadow : rgb(225, 225, 225) 0 .05rem 0;
+	width : #{$baseline}rem
+}
+
+/*
+Text
+*/
+html {
+	font-size : 125%
+}
+
+/*
+Colours
+*/
+body,
+footer > dl > dd::after,
+footer > dl > dd::before,
+header > dl > dd::after,
+header > dl > dd::before {
+	background : $background-colour;
+	color : inherit
+}
+
+object {
+	margin : 1.4em auto;
+	max-width : 25em
+}
+
+nav + object {
+	max-width : 15em/* Leave room for the table of contents and summary image to nestle side-by-side */
+}
+
+/*
+Site-wide navigation
+*/
+[role=banner] [role=navigation] a,
+[role=banner] [role=navigation] li {
+	border-radius : .2em;
+	transition : all .45s ease
+}
+
+[role=banner] [role=navigation] li {
+	background-color : $secondary-colour;
+	border-color: lighten($base-colour, 40);
+	border-style : solid;
+	border-width: thin;
+	box-sizing : border-box /* The thin border has an unknown width so the height and width cannot be calculated, border-box enables the height attribute to change the overal size to the required one by dynamically squashing the line-height */;
+	color : $background-colour;
+	display : inline-block;
+	font-size : .7em /* A notional pixel for this element will be .07em—(20 × .7) ÷ 20 rounded down */;
+	height : 2.6rem;
+	letter-spacing : .1em;
+	line-height : #{$baseline*2}rem;
+	margin : .1rem;
+	text-align : center;
+	text-transform : uppercase;
+	width : 10.5em /* Width impinge upon the anchor elements */
+}
+
+[role=banner] [role=navigation] li:hover {
+	background-color : lighten($secondary-colour, 10)
+}
+
+[role=banner] [role=navigation] li::before {
+	display : none
+}
+
+[role=banner] [role=navigation] a:link,
+[role=banner] [role=navigation] a:visited {
+	background-color : $link-colour;
+	box-shadow : lighten($link-colour, 10) 0 0 1em 0;
+	color : inherit
+}
+
+[role=banner] [role=navigation] a:link {
+	border : none /* Removes the border applied to other document links */;
+	display : block;
+	height : 100%
+}
+
+[role=banner] [role=navigation] a:hover {
+	background-color : lighten($link-colour, 10);
+	box-shadow : lighten($link-colour, 20) 0 0 1em 0
+}
+
+/*
+Link icons
+*/
+a[href^="#"]::after /* This selector should match all links internal to the document */ {
+	content : "\202F§" /* A ‘narrow no-break space’ followed by the section sign */;
+	font-size : .75em;
+	line-height : 0 /* Elements that have a ‘vertical-align’ other than baseline or a position value will expand their parent element’s line-height unless their own line-height is set to ‘0’ */;
+	position : relative;
+	vertical-align : baseline /* Nullify common user-agent ‘sub’ and ‘super’ */;
+	top : -.1em
+}
+
+a[href^="http"]/* This selector should match all external links */,
+a[href*="instagram.com"],
+a[href*="twitter.com"],
+a[href*="linkedin.com"] {
+	background-position : right;
+	background-repeat : no-repeat;
+	padding-right : 1em;
+	text-indent : initial
+}
+
+[href^=http] /* This selector should match all external links */ {
+	background-image : url(/images/icons/new-tab.svg);
+	background-size : .7em;
+}
+
+a[href^="https://releasethestreet.market"] {/* This is the only instance of a page linking to itself that I use, therefore the stylings for links are toned down to mitigate confusion */
+	background-image : none;
+	border : none;
+	padding-right : 0
+}
+
+a[href*="instagram.com"],
+a[href*="twitter.com"],
+a[href*="validator.nu"],
+a[href*="linkedin.com"] {
+	background-size : .9em;
+}
+
+a[href*="instagram.com"] {
+	background-image : url('/images/icons/instagram.svg')
+}
+
+a[href*="twitter.com"] {
+	background-image : url('/images/icons/twotter.svg')
+}
+
+a[href*="validator.nu"] {
+	background-image : url('/images/icons/xhtml-five.svg')
+}
+
+a[href*="linkedin.com"] {
+	background-image : url('/images/icons/linkedin.svg')
+}
+
+/*
+Intra-post navigation
+*/
+.post-navigation {
+	margin : 0;
+	padding-bottom : #{$baseline}rem;
+	position : relative
+}
+
+.post-navigation li {
+	left : 33%;
+	padding-bottom : #{$baseline}rem;
+	position : absolute;
+	text-align : center /* This setting will be overriden for ‘.next’ and ‘.prev’ */;
+	top : 0;
+	width : 33%
+}
+
+.post-navigation li::before {
+	content : ""
+}
+
+.post-navigation li.next {
+	left : 66%;
+	text-align : right
+}
+
+.post-navigation li.prev {
+	left : 0;
+	text-align : left
+}
+
+.next a,
+.prev a {
+	font-style : italic
+}
+
+.next::after,
+.prev::before {
+	position : absolute;
+	top : 0
+}
+
+.post-navigation li.next::after {
+	content : "\202F☞"
+}
+
+.post-navigation li.prev::before {
+	content : "☜\202F";
+	left : -1em
+}
+
+@media (max-width : 30em) { /* Reposition links on narrow screens */
+	.post-navigation li.next,
+	.post-navigation li.prev,
+	.post-navigation li {
+		left : 0;
+		padding-bottom : 0;
+		position : static;
+		text-align : left;
+		width : 100%
+	}
+
+	.next::after {
+		position : relative
+	}
+
+}
+
+@media (min-width : 60em) {
+	nav {
+		background-color : lighten($link-colour, 70) /* Link colour with low opacity */;
+		border-radius : .5em;
+		color : inherit;
+		float : right;
+		margin : 0 0 #{$baseline}rem #{$baseline}rem;
+		max-width : 15rem;
+		padding : 0 #{$baseline}rem
+	}
+
+	nav h2 {
+		margin-top : 0
+	}
+
+	nav * {
+		background-color : transparent
+	}
+}
+
+@media (min-width : 100em) {
+	main {
+		margin-left : -18em
+	}
+
+	nav {
+		margin-right : -22em;
+		position: -webkit-sticky;
+		position: -moz-sticky;
+		position: -ms-sticky;
+		position: -o-sticky;
+		position: sticky;
+		top: 1em
+	}
+
+	nav + object {
+	max-width : 40em/* Leave room for the table of contents and summary image to nestle side-by-side */
+	}
+}
+
+/*
+    Makes X.M.L. errors easier to read but, in particular, corrects error generated by Google Pagespeed script injection
+*/
+parsererror {
+	white-space:pre-wrap !important
+}

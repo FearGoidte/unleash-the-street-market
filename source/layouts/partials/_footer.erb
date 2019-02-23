@@ -1,0 +1,54 @@
+<footer>
+	<p>This document was last modified on <time property="dcterms:modified" datetime="<%= File.mtime(current_page.source_file).iso8601 %>"><%= prettify_date_time(File.mtime(current_page.source_file)) %></time>.</p>
+	<p id="nav_copyright" resource="#ccpattern" typeof="rdfa:Pattern">Copyright © <time property="dcterms:dateCopyrighted"><%= data.settings.site.licence.copyright %></time><% if File.mtime(current_page.source_file).strftime('%Y') > data.settings.site.licence.copyright.to_s %>–<time><%= File.mtime(current_page.source_file).strftime('%Y') %></time><% end %> <span property="cc:attributionName dcterms:creator" resource="#me"><a href="<%= data.settings.site.base_url %>" property="cc:attributionURL" rel="author"><%= data.settings.author.name %></a></span>. Except where otherwise indicated, this document (and all of its contents) is licensed under a <a accesskey="5" href="<%= data.settings.site.licence.url %>" property="cc:license dcterms:license" rel="license"><%= data.settings.site.licence.name %></a>.</p>
+	<table id="nav_accesskeys">
+		<caption>This page makes use of the following <code>accesskey</code> shortcuts:</caption>
+		<thead>
+			<tr>
+				<th>Location</th>
+				<th>Access Key</th>
+			</tr>
+		</thead>
+		<tbody>
+		<% unless current_page.path == 'index.xhtml' %>
+			<tr>
+				<th>Home</th>
+				<td><kbd>1</kbd></td>
+			</tr>
+		<% end %>
+			<tr>
+				<th>Licence</th>
+				<td><kbd>5</kbd></td>
+			</tr>
+			<tr>
+				<th>Copyright</th>
+				<td><kbd>6</kbd></td>
+			</tr>
+			<tr>
+				<th>Validation</th>
+				<td><kbd>v</kbd></td>
+			</tr>
+			<tr>
+				<th>Access Keys</th>
+				<td><kbd>k</kbd></td>
+			</tr>
+		<% if current_article %>
+			<% if current_article.previous_article %>
+			<tr>
+				<th>Previous article</th>
+				<td><kbd>p</kbd></td>
+			</tr>
+			<% end %>
+		<% end %>
+		<% if current_article %>
+			<% if current_article.next_article %>
+			<tr>
+				<th>Next article</th>
+				<td><kbd>n</kbd></td>
+			</tr>
+			<% end %>
+		<% end %>
+		</tbody>
+	</table>
+	<p id="nav_validation">This page is authored in, <em>hopefully</em>, <a accesskey="v" href="https://validator.nu/?doc=<%= CGI.escape(absolute_url(current_page)) %>&amp;showsource=yes&amp;showoutline=yes" rel="nofollow">well-formed <abbr title="eXtensible Hypertext Mark-up Langauge" class="initialism">X.H.T.M.L.</abbr></a> (the validator link is so that I can occasionally check on the mark-up).</p>
+</footer>

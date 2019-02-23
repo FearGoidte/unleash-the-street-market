@@ -1,0 +1,23 @@
+site:
+  base_url: https://unleashthestreet.market 
+  language: en-gb-oxendict
+  name: Unleash The Street Market
+  description: >
+    Helping street markets to serve their communities, integrate with their high streets, and become self-sustaining.
+  logo:
+    url: /images/logo.png
+    height: 315
+    width: 600
+  licence:
+    copyright: 2019
+    name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+author:
+  name: James Ó Nuanáin
+  e_mail: homepage.unleash.feargoidte@mailhero.io
+  github: FearGoidte
+  homepage: https://isfeargoidte.me.uk
+  twitter: feargoidte # excluding '@' symbol
+open_graph:
+  language_TERRITORY: en_GB # http://www.unicode.org/cldr/charts/25/supplemental/language_territory_information.html
+  app_id: '313874632277589' # Must be quoted or any leading zeros will be stripped https://developers.facebook.com/docs/platforminsights/domains
