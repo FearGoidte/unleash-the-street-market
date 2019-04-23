@@ -1,0 +1,29 @@
+<% wrap_layout :layout do %>
+<main id="nav_main">
+	<header>
+			<p><time><%= current_article.date.strftime('%e %B %Y') %></time></p>
+			<h1><%= current_article.title %></h1>
+	</header>
+			<%= yield %>
+
+<% if current_article.article_previous || current_article.article_next # if any links %>
+	<div role="navigation" class="post-navigation">
+		<ol>
+	<% end # if any links %>
+		<% prev_article = current_article.article_previous %>
+			<% if prev_article %>
+			<li class="icon prev">Previous: <%= link_to prev_article.title, prev_article.url, title: "Previous article: #{prev_article.title}", rel: 'prev', accesskey: 'p' %></li>
+			<% end # if prev article %>
+			<% article_next = current_article.article_next %>
+			<% if article_next %>
+			<li class="icon next">Next: <%= link_to article_next.title, article_next.url, title: "Next article: #{article_next.title}", rel: 'next', accesskey: 'n' %></li>
+			<% end # if next article %>
+	<% if current_article.article_previous || current_article.article_next # if any links %>
+		</ol>
+	</div><!--End post navigation-->
+		<% end # if any links %>
+		<%= partial 'layouts/partials/footer' %>
+</main>
+
+
+<% end %>

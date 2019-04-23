@@ -2,8 +2,13 @@
 layout: page
 ---
 <h1>Unleash the Street Market</h1>
-<ul>
-	<li><a href="https://www.instagram.com/unleashmarkets/">Instagram @unleashmarkets</a></li>
-	<li><a href="https://www.linkedin.com/company/unleash-the-street-market/">LinkedIn: Unleash the Street Market</a></li>
-	<li><a href="https://twitter.com/unleashmarkets">Twitter @unleashmarkets</a></li>
-</ul>
+<% blog.articles[0...5].each do |article| %>
+	<article>
+		<header>
+			<p><time><%= article.date.strftime('%e %B %Y') %></time></p>
+			<h2><%= article.title %></h2>
+		</header>
+		<%= article.data.description %>
+    <a href="<%= article.url %>">Continue reading <cite><%= article.title %></cite></a>.
+  </article>
+<% end %>

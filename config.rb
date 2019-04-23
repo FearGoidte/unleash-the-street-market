@@ -29,18 +29,18 @@ set :trailing_slash, true
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
-  blog.permalink = "{year}/{month}/{day}/{title}.xhtml"
+  blog.prefix = "articles"
+  blog.permalink = "{title}.xhtml"
   # Matcher for blog source files
   blog.sources = "{year}-{month}-{day}-{title}.xhtml"
   blog.taglink = "tags/{tag}.xhtml"
-  # blog.layout = "layout"
+  blog.layout = "article"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   blog.year_link = "{year}.xhtml"
   blog.month_link = "{year}/{month}.xhtml"
   blog.day_link = "{year}/{month}/{day}.xhtml"
-  # blog.default_extension = ".markdown"
+  blog.default_extension = ".markdown"
   blog.tag_template = "tag.xhtml"
   blog.calendar_template = "calendar.xhtml"
   blog.new_article_template = File.expand_path('../blank_article.erb', __FILE__)
