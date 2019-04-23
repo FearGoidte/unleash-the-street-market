@@ -74,6 +74,19 @@ set :markdown, fenced_code_blocks: true,
 #   end
 # end
 
+# Asset hashes so that cache times can be increased
+activate :asset_hash, exts: ['.css',
+                             '.eot',
+                             '.gif',
+                             '.ico',
+                             '.js',
+                             '.map',
+                             '.svg',
+                             '.svgz',
+                             '.ttf',
+                             '.webp',
+                             '.woff',
+                             '.woff2']
 
 # Build-specific configuration
 configure :build do

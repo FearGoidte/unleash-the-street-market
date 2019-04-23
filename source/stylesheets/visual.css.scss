@@ -13,6 +13,10 @@ h1 ~ ol > li {
 	display : block /* Remove numbering from article summary list */
 }
 
+figcaption {
+	font-size : .85em
+}
+
 footer dd,
 footer dt,
 footer li,
@@ -168,3 +172,7 @@ p+ol,
 p+ul {
 	margin-top : 0
 	}
+figure {
+	margin-left : auto;
+	margin-right : auto
+}
