@@ -5,10 +5,10 @@ layout: page
 <% blog.articles[0...5].each do |article| %>
 	<article>
 		<header>
-			<p><time><%= article.date.strftime('%e %B %Y') %></time></p>
+			<p><time datetime="<%= article.date.strftime("%F") %>"><%= article.date.strftime('%e %B %Y') %></time></p>
 			<h2><%= article.title %></h2>
 		</header>
 		<%= article.data.description %>
-    <a href="<%= article.url %>">Continue reading <cite><%= article.title %></cite></a>.
+    <a href="<%= article.url %>#nav_main">Continue reading <cite><%= article.title %></cite></a>.
   </article>
 <% end %>

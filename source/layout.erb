@@ -3,21 +3,20 @@
 <?xml-stylesheet href="<%= url_for "/stylesheets/print.css" %>" media="print"?>
 <?xml-stylesheet href="<%= url_for "/stylesheets/screen.css" %>" media="screen"?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<%= data.settings.site.language %>">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<%= data.settings.site.language %>" prefix="article: http://ogp.me/ns/article#">
 	<head>
-		<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title><%= doc_title %></title>
-		<link rel="apple-touch-icon" sizes="180x180" href="images/icons/favicons/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicons/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicons/favicon-16x16.png" />
-		<link rel="manifest" href="images/icons/favicons/site.webmanifest" />
-		<link rel="mask-icon" href="images/icons/favicons/safari-pinned-tab.svg" color="#ff2663" />
-		<link rel="shortcut icon" href="images/icons/favicons/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/favicons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicons/favicon-16x16.png" />
+		<link rel="manifest" href="/images/icons/favicons/site.webmanifest" />
+		<link rel="mask-icon" href="/images/icons/favicons/safari-pinned-tab.svg" color="#ff2663" />
+		<link rel="shortcut icon" href="/images/icons/favicons/favicon.ico" />
 		<meta name="apple-mobile-web-app-title" content="Unleash the Street Market" />
 		<meta name="application-name" content="Unleash the Street Market" />
 		<meta name="msapplication-TileColor" content="#ff2663" />
-		<meta name="msapplication-config" content="images/icons/favicons/browserconfig.xml" />
+		<meta name="msapplication-config" content="/images/icons/favicons/browserconfig.xml" />
 		<meta name="theme-color" content="#ff2663" />
 		<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 	</head>
@@ -26,9 +25,9 @@
 		<div role="banner">
 			<dl>
 				<% if current_page.path == 'index.xhtml' %>
-				<dt property="dcterms:title" xml:lang="ga"><%= data.settings.site.name %></dt>
+				<dt property="dcterms:title"><%= data.settings.site.name %></dt>
 				<% else %>
-				<dt xml:lang="ga-ie"><%= link_to data.settings.site.name, '/index.xhtml' %></dt>
+				<dt><%= link_to data.settings.site.name, '/index.xhtml' %></dt>
 			<% end %>
 				<dd
 			<% if current_page.path == 'index.xhtml' %>

@@ -59,6 +59,22 @@ end
 set :relative_links, true
 activate :relative_assets
 
+# Asset hashes so that cache times can be increased
+activate :asset_hash, exts: ['.css',
+                             '.eot',
+                             '.gif',
+                             '.ico',
+                             '.jpg',
+                             '.js',
+                             '.otf',
+                             '.map',
+                             '.svg',
+                             '.svgz',
+                             '.ttf',
+                             '.webp',
+                             '.woff',
+                             '.woff2']
+
 # Markdown settings
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true,
@@ -73,20 +89,6 @@ set :markdown, fenced_code_blocks: true,
 #     "Helping"
 #   end
 # end
-
-# Asset hashes so that cache times can be increased
-activate :asset_hash, exts: ['.css',
-                             '.eot',
-                             '.gif',
-                             '.ico',
-                             '.js',
-                             '.map',
-                             '.svg',
-                             '.svgz',
-                             '.ttf',
-                             '.webp',
-                             '.woff',
-                             '.woff2']
 
 # Build-specific configuration
 configure :build do

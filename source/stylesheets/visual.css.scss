@@ -158,7 +158,7 @@ li::before,
 /* Disable unordered list markers */
 
 ul > li::before {
-	content : url(../bullet.svg);
+	content : url(../images/icons/bullet.svg);
 	top : .24em;
 	height : .75em;
 	width : .75em
@@ -172,7 +172,8 @@ p+ol,
 p+ul {
 	margin-top : 0
 	}
-figure {
+figure,
+object {
 	margin-left : auto;
 	margin-right : auto
 }

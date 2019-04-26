@@ -1,5 +1,5 @@
 site:
-  base_url: https://unleashthestreet.market 
+  base_url: https://unleashthestreet.market
   language: en-gb-oxendict
   name: Unleash The Street Market
   description: >
@@ -14,10 +14,10 @@ site:
     url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 author:
   name: James Ó Nuanáin
-  e_mail: homepage.unleash.feargoidte@mailhero.io
+  e_mail: james@unleashthestreet.market
   github: FearGoidte
-  homepage: https://isfeargoidte.me.uk
-  twitter: feargoidte # excluding '@' symbol
+  homepage: https://unleashthestreet.market
+  twitter: unleashthestreet # excluding '@' symbol
 open_graph:
   language_TERRITORY: en_GB # http://www.unicode.org/cldr/charts/25/supplemental/language_territory_information.html
   app_id: '313874632277589' # Must be quoted or any leading zeros will be stripped https://developers.facebook.com/docs/platforminsights/domains

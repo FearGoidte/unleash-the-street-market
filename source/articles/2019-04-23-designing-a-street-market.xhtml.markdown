@@ -3,6 +3,7 @@ title: Designing a street market
 description: >
   A quick guide to designing a mixed food and craft street market.
 tags: placeshaping, placemaking, streetmarket, streetfood, marketdesign, marketlayout
+summary_image: junction.png
 ---
 
 <figure>
@@ -27,7 +28,7 @@ The market is composed of:
 
 On a market, stalls should compliment both the shops and each other. Try not to duplicate stalls. You can differentiate between similar traders like cheesemongers using provenance or price. A market should serve its community and most communities around markets are diverse in terms of income as well as in terms of backgrounds and culture.
 
-## layout
+## Layout
 
 Where access for fire engines allows, stalls should be back-to-back in the middle of the road rather than facing each other backing onto the kerb.
 

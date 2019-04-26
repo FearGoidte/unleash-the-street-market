@@ -1,8 +1,8 @@
 <% wrap_layout :layout do %>
-<main id="nav_main">
+<main id="nav_main" typeof="DCMIType:text" resource="<%= absolute_url(current_article) %>">
 	<header>
-			<p><time><%= current_article.date.strftime('%e %B %Y') %></time></p>
-			<h1><%= current_article.title %></h1>
+			<p><time property="dcterms:created" datetime="<%= current_article.date.strftime("%F") %>"><%= current_article.date.strftime('%e %B %Y') %></time></p>
+			<h1 property="dcterms:title"><%= current_article.title %></h1>
 	</header>
 			<%= yield %>
 
@@ -12,11 +12,11 @@
 	<% end # if any links %>
 		<% prev_article = current_article.article_previous %>
 			<% if prev_article %>
-			<li class="icon prev">Previous: <%= link_to prev_article.title, prev_article.url, title: "Previous article: #{prev_article.title}", rel: 'prev', accesskey: 'p' %></li>
+			<li class="icon prev">Previous: <%= link_to prev_article.title, prev_article.url+'#nav_main', title: "Previous article: #{prev_article.title}", rel: 'prev', accesskey: 'p' %></li>
 			<% end # if prev article %>
 			<% article_next = current_article.article_next %>
 			<% if article_next %>
-			<li class="icon next">Next: <%= link_to article_next.title, article_next.url, title: "Next article: #{article_next.title}", rel: 'next', accesskey: 'n' %></li>
+			<li class="icon next">Next: <%= link_to article_next.title, article_next.url+'#nav_main', title: "Next article: #{article_next.title}", rel: 'next', accesskey: 'n' %></li>
 			<% end # if next article %>
 	<% if current_article.article_previous || current_article.article_next # if any links %>
 		</ol>

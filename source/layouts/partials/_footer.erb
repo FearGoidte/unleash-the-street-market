@@ -4,7 +4,7 @@
 	<li><a href="https://www.linkedin.com/company/unleash-the-street-market/">LinkedIn: Unleash the Street Market</a></li>
 	<li><a href="https://twitter.com/unleashmarkets">Twitter @unleashmarkets</a></li>
 </ul>
-	<p>This document was last modified on <time property="dcterms:modified" datetime="<%= File.mtime(current_page.source_file).iso8601 %>"><%= prettify_date_time(File.mtime(current_page.source_file)) %></time>.</p>
+	<p>This document was last modified on <time property="dcterms:modified" datetime="<%= File.mtime(current_page.source_file).iso8601 %>"><%= File.mtime(current_page.source_file).strftime('%e %B %Y') %></time>.</p>
 	<p id="nav_copyright" resource="#ccpattern" typeof="rdfa:Pattern">Copyright © <time property="dcterms:dateCopyrighted"><%= data.settings.site.licence.copyright %></time><% if File.mtime(current_page.source_file).strftime('%Y') > data.settings.site.licence.copyright.to_s %>–<time><%= File.mtime(current_page.source_file).strftime('%Y') %></time><% end %> <span property="cc:attributionName dcterms:creator" resource="#me"><a href="<%= data.settings.site.base_url %>" property="cc:attributionURL" rel="author"><%= data.settings.author.name %></a></span>. Except where otherwise indicated, this document (and all of its contents) are shared under a <a accesskey="5" href="<%= data.settings.site.licence.url %>" property="cc:license dcterms:license" rel="license"><%= data.settings.site.licence.name %></a>.</p>
 	<table id="nav_accesskeys">
 		<caption>This page makes use of the following <code>accesskey</code> shortcuts:</caption>
