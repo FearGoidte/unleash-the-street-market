@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/feargoidte
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://unleashthestreet.market
+  * I am feargoidte (https://keybase.io/feargoidte) on keybase.
+  * I have a public key with fingerprint CD82 EB35 489C 0388 0C3B  BFC1 0736 1675 8F60 51F5
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c906f340ec8c4b05c58f0d5c0e2371bd2c55ff08e703543fe68a721ab233de870a",
+      "fingerprint": "cd82eb35489c03880c3bbfc1073616758f6051f5",
+      "host": "keybase.io",
+      "key_id": "073616758f6051f5",
+      "kid": "0101c906f340ec8c4b05c58f0d5c0e2371bd2c55ff08e703543fe68a721ab233de870a",
+      "uid": "8182d83aaa32ec991ff4240427067a19",
+      "username": "feargoidte"
+    },
+    "service": {
+      "hostname": "unleashthestreet.market",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1556442502,
+  "expire_in": 157680000,
+  "prev": "84f6bf56e6c1d14e48dd500fccbc7d4bd21c63e474dec3c9abc6b97cf6a3e885",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIvAnicrZJZSBVRGMfHVrumFCGVBNZUYHSzM9uZmRsFLdJCRS/Vi3A9c+Y7905X
+Z24zc02RyBbqpaLQAimkBVNLgjYQ0qxoI6leouUhgsqKgmiBwqLojNlTr52Xw/n4
+ff//9/05NwpHCrE8a+DU7ebjV1he/7W2nFB5s2Z3g2h5dr2YaBAzMHRBtQ1BmMw4
+tpgQkYQkaiLMFBUBNahqIY1qBkO2RhHIii5Ztkw1jTFkgI4UTVUYYIPoskQsWVFs
+MHRExLjIHDcFftZ33JDLUtuQweK0YVKkGAaiimUxKiFdwRLWuQFGmsQ03pj2gqiD
+D2eRAModj9f4I/lnvH/5/zx3bkjOkAzZNhRCiCIDNU2JMVVWkSrrCOtEMiMwAN8l
+NcBpBsRPeY4dgrg1LvJ6rUMhijbaZZjJudVAgnSY5ln7AGF5DfEzEHKhrO+FHvWq
+OZQOw2yQiETC+mzUtQWs5LBe0nJcm4fKO2rBDxzPFRMSJ2noRAaSpmFVlTUkx0Wo
+yzo+JJ2I0HRsIH4iH6iNVlMZtpiGAVPJllRQDdvWEGKUWlS3VR6TRLECqq7aQBVq
+Eotiy9Qpw0QBw4giD2Cz63FtbhWSFNcMnJRLwpzP979+tXKUkBcTxoweEf02ITZu
+wt8/+GFVvnC6tLO+YOI0VDYj0xFrSPddaltc+v3K4Wd1swYnXDh0OFegl02sqlxu
+xnv8WSV1x6ber3yZf+Jh74mTa563r8x/ZS9r2V/0decuUjW5tp/04LVLK2aaP/pD
+32l9cu5TW1PfnqWxHW8kcujlQENF06UpCSj5fGb17tmPz28v3zf+qVew7eKDR4va
+P9wo7RIvvzjweUm3u6ZlOptTclJsLi5qw92d5Nak5LwVt9erQvbq6Pxv71Pa29bC
+mmBrY/GRnx33vlyc2zS2ayFu3xhv7rnbfdbv2buhsOBc5v3Ps30djb1337WvE8oG
+z38MveVjB3qLt73eP3/TgpFFd1qFowerrKpfL34DWbZEKQ==
+=nb85
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/feargoidte
+
+==================================================================
