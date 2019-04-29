@@ -5,10 +5,74 @@
   <id>http://blog.url.com/articles</id>
   <link href="http://blog.url.com/articles"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-04-23T00:00:00+01:00</updated>
+  <updated>2019-04-29T00:00:00+01:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Better living through street food</title>
+    <link rel="alternate" href="http://blog.url.com/articles/better-living-through-street-food/"/>
+    <id>http://blog.url.com/articles/better-living-through-street-food/</id>
+    <published>2019-04-29T00:00:00+01:00</published>
+    <updated>2019-04-29T07:29:14+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;figure&gt;
+&lt;object type="image/jpeg" data="vegan-salad.jpeg"&gt;&lt;/object&gt;
+&lt;figcaption&gt;Photograph credit: &lt;cite&gt;&lt;a href="https://flickr.com/photos/160866001@N07/32734311987"&gt;Vegan Salad&lt;/a&gt;&lt;/cite&gt; by &lt;a href="https://flickr.com/people/160866001@N07"&gt;Marco Verch&lt;/a&gt; shared under a &lt;a href="https://creativecommons.org/licenses/by/2.0/"&gt;Creative Commons (BY) licence&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="the-pitch"&gt;The pitch&lt;/h2&gt;
+
+&lt;p&gt;Whilst the likes of black pudding &amp;amp; duck ‘scotch’ eggs and halloumi fries have their place as indulgent treats, many street food markets are now offering little in the way of healthier alternatives to these deep-fired delights.&lt;/p&gt;
+
+&lt;p&gt;Most markets are oversubscribed with applications from potential food traders so you can afford to be a little picky when it comes to takeaway food.&lt;/p&gt;
+
+&lt;h2 id="determine-what-counts-as-healthy-catering"&gt;Determine what counts as healthy catering&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href="https://healthiercateringcommitment.co.uk"&gt;&lt;cite&gt;Healthy Catering Commitment&lt;/cite&gt;&lt;/a&gt; is a formalized set of criteria which takes food fads and personal preference out of the equation. The Commitment is a scheme run by the London Boroughs with support from the Mayor of London that recognises businesses that demonstrate a commitment to reducing the level of saturated fat and salt in their food, to offer some healthier options like lower sugar drinks and snacks, and to make smaller portions available on request. There is some useful &lt;a href="https://www.gov.uk/government/publications/healthier-and-more-sustainable-catering-a-toolkit-for-serving-food-to-adults"&gt;information regarding sustainability and nutrition on gov.uk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="food-hygiene"&gt;Food hygiene&lt;/h3&gt;
+
+&lt;p&gt;Part of healthy catering is that the food is safe to eat, regardless of its nutritional impact. Consider requiring traders to meet a minimum score on their &lt;a href="https://www.food.gov.uk/safety-hygiene/food-hygiene-rating-scheme"&gt;food hygiene rating&lt;/a&gt; such as four which equates to good. I’m a strong proponent in requiring traders to display their score on their stalls. I think it’s good practice for market management and for traders themselves.&lt;/p&gt;
+
+&lt;h2 id="applications"&gt;Applications&lt;/h2&gt;
+
+&lt;p&gt;I’ve yet to see a Healthy Catering application form that was anything other than challenging to fill in or to assess. For example, the model form on the Healthier Catering Commitment website has the acceptable answers for “Tel” and “E-mail” as “Yes”, “No”, or “N/A”.&lt;/p&gt;
+
+&lt;p&gt;To make life a little easier, I have cobbled together a &lt;a href="https://docs.google.com/forms/"&gt;Google Form&lt;/a&gt; that automagically scores each applicant and then adds the answers to a spreadsheet feel free to copy and adapt it: &lt;a href="https://docs.google.com/forms/d/1gMYnLVWZlejZOlzU0nii6mfI9JPuSXc2-A906S3b7OA/copy"&gt;Healthier Catering Commitment application form&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;object type="image/png" data="form.png"&gt;&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;In a customer facing environment you would want to avoid Google Forms as Google are struggling with data protection compliance. For file uploads the people filling in the form have to have a Google account which is an unnecessary hurdle for applicants. There are plenty of alternatives such as &lt;a href="https://www.jotform.com/"&gt;JotForm&lt;/a&gt; and &lt;a href="https://www.typeform.com/"&gt;Typeform&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am planning to write-up guidance and encouragement to make sure that all application forms and information about trading is presented in an accessible (legally and linguistically) manner but for the sake of simplicity the above forms just tackles the Commitment to Healthier Catering. However, I think there is no harm in requiring all takeaway food applications to meet the minimum criteria and integrating it into your standard applications.&lt;/p&gt;
+
+&lt;h2 id="regulating-food-vendors-near-schools"&gt;Regulating food vendors near schools&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;object type="image/jpeg" data="burts-burgers.jpeg"&gt;&lt;/object&gt;
+&lt;figcaption&gt;Photograph credit: &lt;cite&gt;&lt;a href="https://flickr.com/photos/elsie/8603505961"&gt;Burts burgers&lt;/a&gt;&lt;/cite&gt; by &lt;a href="https://www.flickr.com/people/elsie"&gt;Les Chatfield&lt;/a&gt; shared under a &lt;a href="https://creativecommons.org/licenses/by/2.0/"&gt;Creative Commons (BY) licence&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Mayor of &lt;a href="https://www.london.gov.uk/what-we-do/business-and-economy/food/support-and-resources/takeaways-toolkit"&gt;&lt;cite&gt;London’s Takeaways Toolkit (2012)&lt;/cite&gt;&lt;/a&gt; recommends using street trading legislation (if your local authority has adopted it) to restrict mobile fast food vans, particularly around schools:&lt;/p&gt;
+
+&lt;blockquote cite="https://www.london.gov.uk/what-we-do/business-and-economy/food/support-and-resources/takeaways-toolkit"&gt;Mobile fast food units are not governed by planning policy, but can be controlled by the granting of street trading licences by local authorities and regulated by environmental health and trading standards officers. Local authorities have the power to restrict the areas where mobile vans trade by designating streets as ‘prohibited’, ‘consent’ or ‘licensed’ with respect to street trading. If a local authority passes a resolution to make some streets prohibited, then no street trading can take place in those areas. This can be a means of regulating fast food vans around the school fringe. When a local authority designates streets as licensed or consent streets, they can regulate the number of street traders in that area. In doing so, a local authority can restrict fast food vans and give preference to those offering healthier options.&lt;/blockquote&gt;
+
+&lt;h2 id="restriction-of-competition-considerations"&gt;Restriction of competition considerations&lt;/h2&gt;
+
+&lt;p&gt;European competition law can make some local authorities timid about placing restrictions on the kinds of applications they will block and the regulations they will apply to restrict businesses. The important things is know that you have a legitimate interest in promoting healthy eat and healthy living in general and that the above suggestions are reasonable attempts to fulfil a market regulators responsibilities.&lt;/p&gt;
+
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you’re curating a market, not every takeaway food stall has to be something fried, in a bun, with chips. You can and should do better.&lt;/p&gt;
+
+&lt;p&gt;There are lots of small things you can do to promote health through a market such as providing bicycle racks, promoting &lt;a href="https://www.healthystart.nhs.uk/"&gt;&lt;cite&gt;Healthy Start&lt;/cite&gt; vouchers&lt;/a&gt;, and holding cooking classes. &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:6516976502582583296/"&gt;Esther Morrison&lt;/a&gt; makes a good point about the importance of cooking and education: “A general market thrives on food—not just artisan &amp;amp; street food, but the footfall from the daily purchasing of ingredients to cook. This ‘buy less, more often’ reduces food waste and costs, but without the confidence to cook, the temptation is to think ‘I’m not worth the effort’ and to walk on past, to the supermarket ready meals.”&lt;/p&gt;
+
+&lt;p&gt;However, there is one &lt;em&gt;big thing&lt;/em&gt; that you can do improve the health of visitors to your market, improve the nutritional value of the food that they munch on as they walk around the stalls.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Designing a street market</title>
     <link rel="alternate" href="http://blog.url.com/articles/designing-a-street-market/"/>
