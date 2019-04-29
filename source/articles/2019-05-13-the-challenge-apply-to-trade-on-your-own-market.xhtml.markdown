@@ -9,7 +9,7 @@ description: >
 
 ---
 <figure>
-<object type="image/jpeg" data="apply-key.png"></object>
+<object type="image/png" data="apply-key.png"></object>
 <figcaption><a title="Apply Key" href="https://flickr.com/photos/157270154@N05/26706270559"><cite>Apply Key</cite></a> by <a href="https://flickr.com/people/157270154@N05">Mike Lawrence</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 

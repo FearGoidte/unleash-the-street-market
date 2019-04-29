@@ -3,7 +3,7 @@
 title: Better living through street food
 summary_image:
 tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, placemaking, placeshaping, streetfood, streetfoodmarket, streetfoodmarkets
-published: false
+published: true
 description: >
   If you’re curating a market, not every takeaway food stall has to be something fried, in a bun, with chips. You can and should do better.
 
@@ -33,6 +33,8 @@ Part of healthy catering is that the food is safe to eat, regardless of its nutr
 I’ve yet to see a Healthy Catering application form that was anything other than challenging to fill in or to assess. For example, the model form on the Healthier Catering Commitment website has the acceptable answers for “Tel” and “E-mail” as “Yes”, “No”, or “N/A”.
 
 To make life a little easier, I have cobbled together a [Google Form](https://docs.google.com/forms/) that automagically scores each applicant and then adds the answers to a spreadsheet feel free to copy and adapt it: [Healthier Catering Commitment application form](https://docs.google.com/forms/d/1gMYnLVWZlejZOlzU0nii6mfI9JPuSXc2-A906S3b7OA/copy).
+
+<object type="image/png" data="form.png"></object>
 
 In a customer facing environment you would want to avoid Google Forms as Google are struggling with data protection compliance. For file uploads the people filling in the form have to have a Google account which is an unnecessary hurdle for applicants. There are plenty of alternatives such as [JotForm](https://www.jotform.com/) and [Typeform](https://www.typeform.com/).
 
