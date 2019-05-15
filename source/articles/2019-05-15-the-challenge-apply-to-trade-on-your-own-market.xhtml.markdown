@@ -2,8 +2,8 @@
 
 title: "The challenge: apply to trade on your own market"
 summary_image:
-tags:
-published: false
+tags: placemaking, placeshaping, marketmanagement, streetmarket, markets
+published: true
 description: >
   Are you making it too hard to apply for a stall on your market and what could you do to make it easier for people to apply and applications easier to process?
 
@@ -15,22 +15,24 @@ description: >
 
 
 If you currently run a market, try applying to trade on it.
+
 - How easy was it?
 - Did you have to collect an application form?
 - Was all the information you provided relevant?
 - Did all the questions make sense?
 - Where you asked to provide documents with no clue as to how to get them (insurance, food registration &c.)?
 
-Do you tell traders up front what you are, and aren’t, looking for?
+Do you tell traders up front what you are, <em>and aren’t</em>, looking for?
 
 Do you encourage people to be street traders and provide them with information about start-up loans and mentoring?
 
 Do you have an information stall on your market? If you’re a local authority market you could offer an information stall as a free charity collection pitch for rotating charities.
 
-If you only offer paper applications and have no internal team to develop one on your website, take a look at online form providers:
+If you only offer paper applications and have no internal team to develop a digital one for your website, take a look at online form providers:
+
 - [JotForm](https://jotform.com)
 - [Typeform](https://www.typeform.com)
 
 If you are already using online forms, are you using branching logic to ask the minimum questions such as only asking good traders about registration as a food business? Are you telling applicants all the information that they need to have ready before starting to complete the form?
 
-Are you making it too hard to apply and what could you do to make it easier to apply and applications easier to process?
+Are you making it too hard to ask for a stall and and what could you do to make it easier to apply and to make applications easier to process?

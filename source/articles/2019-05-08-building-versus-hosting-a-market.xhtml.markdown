@@ -2,8 +2,8 @@
 
 title: Building versus hosting a market
 summary_image:
-tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, placemaking, placeshaping
-published: false
+tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, placemaking, placeshaping, marketmanagement
+published: true
 description: >
   One of the strongest sources of sustenance to a thriving market is how easy it is for new traders to rock up and start trading. However, if you don’t provide stall equipment and storage space your market can only host established traders.
 
