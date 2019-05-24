@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: https://unleashthestreet.market/sitemap.xml
+Disallow: /images/
+Disallow: /page/
+Disallow: /styles/
+Disallow: /tags/
+Disallow: /404.html
