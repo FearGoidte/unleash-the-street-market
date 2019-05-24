@@ -7,7 +7,7 @@ summary_image: the-trust-issue.jpeg
 
 ---
 
-<object type="image/jpeg" data="the-trust-issue.jpeg"></object>
+<object type="image/jpeg" width="744" height="440" data="/images/the-trust-issue.jpeg"></object>
 
 For people who are not used to shopping on a local market, the retail environment presented by stalls can be disconcerting.
 
@@ -30,7 +30,7 @@ Display clear contact information for the market management team so that visitor
 ### Non-food stalls
 
 <figure>
-<object type="image/jpeg" data="africa-at-spitalfields.jpeg"></object>
+<object type="image/jpeg" width="1200" height="800" data="/images/africa-at-spitalfields.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/spitalfields-e1/9624589344/">Africa at Spitalfields</a></cite> by <a href="https://www.flickr.com/photos/spitalfields-e1/">Spitalfields_E1</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Display clear contact information for the market management team so that visitor
 ### Food stalls
 
 <figure>
-<object type="image/jpeg" data="borough-market.jpeg"></object>
+<object type="image/jpeg" width="1200" height="900" data="/images/borough-market.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/mastermaq/3600010535/">Borough Market</a></cite> by <a href="https://www.flickr.com/photos/mastermaq/">Mack Male</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 

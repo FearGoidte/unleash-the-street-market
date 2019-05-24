@@ -3,17 +3,17 @@ title: Curatorial control-freakery
 tags: placeshaping, placemaking, streetmarket, streetfood, marketdesign, marketlayout
 description: >
   Are we trying to over-manage markets?
-summary_image: camden-market-west-yard
+
 ---
 
-<object type="image/jpeg" data="camden-market-west-yard.jpeg"></object>
+<object type="image/jpeg" width="1080" height="720" data="/images/camden-market-west-yard.jpeg"></object>
 
 Maybe we should let go to let market’s thrive.
 
 London’s Public street markets are mostly regulated under the [London Local Authorities Act](https://www.legislation.gov.uk/ukla/2007/2/contents/enacted). Many industry leaders chaff under its restrictions and hanker for greater control over product such as that manifested at the private markets like [Camden Lock & Stables](https://www.camdenmarket.com) and [Old Spitalfields Market](https://oldspitalfieldsmarket.com).
 
 <figure>
-<object type="image/jpeg" data="old-spitalfields-market.jpeg"></object>
+<object type="image/jpeg" width="1200" height="900" data="/images/old-spitalfields-market.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/londonmatt/40472892230/">Spitalfields Market</a></cite> by <a href="https://www.flickr.com/photos/londonmatt/">Matt Brown</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Reports on the state of London markets often call for reform of the Act to allow
 When I look at the thriving and relevant markets at Bethnal Green and Whitechapel, I’m not so sure. I could also point to the organically grown lunch markets like Leather Lane, Exmouth Market, and Whitecross Street.
 
 <figure>
-<object type="image/jpeg" data="whitechapel-road-stalls.jpeg"></object>
+<object width="1200" height="900" type="image/jpeg" data="/images/whitechapel-road-stalls.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/alanstanton/1309051422/">Whitechapel Road Stalls</a></cite> by <a href="https://www.flickr.com/photos/alanstanton/">Alan Stanton</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 

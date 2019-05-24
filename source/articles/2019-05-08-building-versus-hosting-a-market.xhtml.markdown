@@ -10,7 +10,7 @@ description: >
 ---
 
 <figure>
-<object type="image/jpeg" data="hiller-bros.jpeg"></object>
+<object type="image/jpeg" width="800" height="590" data="/images/hiller-bros.jpeg"></object>
 <figcaption>Hiller Bros former yard at 64 Squirries Street, London circa 1900. © Tower Hamlets Local History Library.</figcaption>
 </figure>
 
@@ -30,4 +30,4 @@ On Broadway Market the majority of the traders were new to market trading, on Ex
 
 If you are not going to provide the equipment and somewhere to store it, you are going to be relying on other markets to nurture traders for you and your market might create jobs but is unlikely to create businesses. Your lock-up or yard might be the sexiest part of your market.
 
-<object type="image/jpeg" data="baker-and-sons.jpeg"></object>
+<object type="image/jpeg" width="1200" height="900" data="/images/baker-and-sons.jpeg"></object>

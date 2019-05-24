@@ -10,7 +10,7 @@ description: >
 ---
 
 <figure>
-<object type="image/jpeg" data="vegan-salad.jpeg"></object>
+<object type="image/jpeg" width="1280" height="853" data="/images/vegan-salad.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://flickr.com/photos/160866001@N07/32734311987">Vegan Salad</a></cite> by <a href="https://flickr.com/people/160866001@N07">Marco Verch</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) licence</a></figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ I’ve yet to see a Healthy Catering application form that was anything other th
 
 To make life a little easier, I have cobbled together a [Google Form](https://docs.google.com/forms/) that automagically scores each applicant and then adds the answers to a spreadsheet feel free to copy and adapt it: [Healthier Catering Commitment application form](https://docs.google.com/forms/d/1gMYnLVWZlejZOlzU0nii6mfI9JPuSXc2-A906S3b7OA/copy).
 
-<object type="image/png" data="form.png"></object>
+<object type="image/png" width="1268" height="1034" data="/images/form.png"></object>
 
 In a customer facing environment you would want to avoid Google Forms as Google are struggling with data protection compliance. For file uploads the people filling in the form have to have a Google account which is an unnecessary hurdle for applicants. There are plenty of alternatives such as [JotForm](https://www.jotform.com/) and [Typeform](https://www.typeform.com/).
 
@@ -43,7 +43,7 @@ I am planning to write-up guidance and encouragement to make sure that all appli
 ## Regulating food vendors near schools
 
 <figure>
-<object type="image/jpeg" data="burts-burgers.jpeg"></object>
+<object type="image/jpeg" width="1024" height="576" data="/images/burts-burgers.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://flickr.com/photos/elsie/8603505961">Burts burgers</a></cite> by <a href="https://www.flickr.com/people/elsie">Les Chatfield</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">Creative Commons (BY) licence</a></figcaption>
 </figure>
 

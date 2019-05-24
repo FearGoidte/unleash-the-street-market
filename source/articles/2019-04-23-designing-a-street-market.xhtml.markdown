@@ -7,7 +7,7 @@ summary_image: junction.png
 ---
 
 <figure>
-<object type="image/jpeg" data="broadway-market-north.jpeg"></object>
+<object type="image/jpeg" width="1024" height="548" data="/images/broadway-market-north.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="http://www.janeillustration.co.uk/blog/dalston-drawings-3/broadway-north-1024x726/">Broadway Market North</a></cite> by <a href="http://www.janeillustration.co.uk/">Jane Smith</a></figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Where access for fire engines allows, stalls should be back-to-back in the middl
 When the stalls are facing each other it can be more photogenic but it splits foot traffic three ways and smothers trade for the shops behind the stalls.
 
 <figure>
-<object type="image/jpeg" data="columbia-road.jpeg"></object>
+<object type="image/jpeg" width="1024" height="768" data="/images/columbia-road.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/visualpunch/5628934853/">Columbia Road flower market</a></cite> by <a href="https://www.flickr.com/photos/visualpunch/">visualpun.ch</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Columbia Road is a fantastic market but almost impassable when busy and few woul
 Stalls back-to-back create an easier customer journey (you can walk around the whole market in one trip without doubling-back. This layout also provides added security for the traders as the back of their stall backs onto another stall and is less accessible.
 
 <figure>
-<object type="image/jpeg" data="broadway-market.jpeg"></object>
+<object type="image/jpeg" width="1451" height="1088" data="/images/broadway-market.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/feesta/3446596993/">Saturday is the market day</a></cite> by <a href="https://www.flickr.com/photos/feesta/">Jeff Easter</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ The layout at the North end of Broadway Market maximizes the footway available t
 
 The example market is in three blocks. At the centre of each block there are four takeaway food traders, these are then flanked by produce traders with non-food traders on the outside. A couple of double stalls are added to each block to reflect that these are often required for bakers, butchers, and grocers.
 
-<object type="image/png" data="layout.png"></object>
+<object type="image/png" width="708" height="506" data="/images/layout.png"></object>
 
 Where possible, you shouldn’t put cooking next to non-food stalls. The cooking smells will distract their customers and can cause their stock, especially clothing, to smell. Successful takeaway stalls can also generate queues and these need to be managed to prevent them blocking the frontages of other stalls.
 
@@ -60,13 +60,13 @@ Non-food traders often struggle on a mixed market so you should reserve the corn
 
 Where other roads lead onto the market and form junctions, set stalls across the junctions. You are trying to create a journey around the market rather than encourage people to pass quickly through it.
 
-<object type="image/png" data="junction.png"></object>
+<object type="image/png" width="865" height="1067" data="/images/junction.png"></object>
 
 ## Seating
 
 Each block is separated from the others by seating. Whenever you have space or fewer than usual stalls, make up the difference with seating.
 
-<object type="image/png" data="seating.png"></object>
+<object type="image/png" width="998" height="867" data="/images/seating.png"></object>
 
 Seating may not generate stall income, but it increases the time that people stay on the market and leads to greater sales. You should always consider sacrificing some stall space to seating.
 
@@ -87,7 +87,7 @@ Electric cooking equipment doesn’t hold up to being transported and treated ro
 It is generally better to provide lighting rather than leave traders to their own devices. By stringing together festoon lights, each block of stalls can be lit using just one plug. Providing lighting also means that the stalls stay lit till the market closes rather than have individual stalls going dark as they close. Lots of sales can be lost when a few traders pack-up early and markets look like they've already closed.
 
 <figure>
-<object type="image/jpeg" data="raekoja-plats.jpeg"></object>
+<object type="image/jpeg" width="1280" height="691" data="/images/raekoja-plats.jpeg"></object>
 <figcaption>Photograph credit: <cite><a href="https://www.flickr.com/photos/guillaumespeurt/32252118841/">Christmas market on raekoja plats</a></cite> by <a href="https://www.flickr.com/photos/guillaumespeurt/">Guillaume Speurt</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons (BY-SA) licence</a></figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ The layout that I have indicated should take a stall crew of four two hours to e
 
 ## Conclusion
 
-<object type="image/png" data="market-layout.png"></object>
+<object type="image/png" width="1013" height="689" data="/images/market-layout.png"></object>
 
 Market design is craft rather than science and in many cases the current layout has arisen by accident and tradition. Above are some general observations based on experience.
 
