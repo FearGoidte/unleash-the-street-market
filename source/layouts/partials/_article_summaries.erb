@@ -1,0 +1,14 @@
+<article>
+	<header>
+		<p><time datetime="<%= article.date.strftime("%F") %>"><%= article.date.strftime('%e %B %Y') %></time></p>
+		<h2><%= article.title %></h2>
+		<p><%= data.settings.author.name %></p>
+	</header>
+	<% if article.data.description %>
+	<p><%= article.data.description %></p>
+	<% end %>
+	<% if article.data.thumbnail %>
+	<object class="thumbnail" type="<%= article.data.thumbnail.type %>" width="article.data.thumbnail.width" height="article.data.thumbnail.height" data="<%= url_for article.data.thumbnail %>"></object>
+	<% end %>
+	<p>Continue reading <a href="<%= article.url %>#nav_main"><cite><%= article.title %></cite></a> (could take <%= reading_time(article.body) %>).</p>
+</article>

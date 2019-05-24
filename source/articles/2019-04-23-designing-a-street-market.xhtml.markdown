@@ -3,7 +3,12 @@ title: Designing a street market
 description: >
   A quick guide to designing a mixed food and craft street market.
 tags: placeshaping, placemaking, streetmarket, streetfood, marketdesign, marketlayout
-summary_image: junction.png
+thumbnail:
+  url: /images/broadway-market-north.jpeg
+  type: image/jpeg
+  width: 1024
+  height: 548
+
 ---
 
 <figure>

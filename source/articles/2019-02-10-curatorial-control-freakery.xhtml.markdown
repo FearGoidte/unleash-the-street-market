@@ -3,6 +3,11 @@ title: Curatorial control-freakery
 tags: placeshaping, placemaking, streetmarket, streetfood, marketdesign, marketlayout
 description: >
   Are we trying to over-manage markets?
+thumbnail:
+  url: /images/camden-market-west-yard.jpeg
+  type: image/jpeg
+  width: 1080
+  height: 720
 
 ---
 

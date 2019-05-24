@@ -6,6 +6,11 @@ tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, p
 published: true
 description: >
   If you’re curating a market, not every takeaway food stall has to be something fried, in a bun, with chips. You can and should do better.
+thumbnail:
+  url: /images/vegan-salad.jpeg
+  type: image/jpeg
+  width: 853
+  height: 1280
 
 ---
 

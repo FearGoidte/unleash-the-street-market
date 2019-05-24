@@ -6,6 +6,11 @@ tags: placemaking, placeshaping, marketmanagement, streetmarket, markets
 published: true
 description: >
   Are you making it too hard to apply for a stall on your market and what could you do to make it easier for people to apply and applications easier to process?
+thumbnail:
+  url: /images/apply-key.png
+  type: image/png
+  width: 800
+  height: 485
 
 ---
 <figure>

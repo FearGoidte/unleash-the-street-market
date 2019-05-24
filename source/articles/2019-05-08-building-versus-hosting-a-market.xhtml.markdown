@@ -6,6 +6,11 @@ tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, p
 published: true
 description: >
   One of the strongest sources of sustenance to a thriving market is how easy it is for new traders to rock up and start trading. However, if you don’t provide stall equipment and storage space your market can only host established traders.
+thumbnail:
+  url: /images/baker-and-sons.jpeg
+  type: image/jpeg
+  width: 900
+  height: 1200
 
 ---
 

@@ -45,9 +45,9 @@ activate :blog do |blog|
   blog.calendar_template = "calendar.xhtml"
   blog.new_article_template = File.expand_path('../blank_article.erb', __FILE__)
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
+  blog.paginate = true
+  blog.per_page = 5
+  blog.page_link = "page/{num}"
 end
 
 # Reload the browser automatically whenever files change

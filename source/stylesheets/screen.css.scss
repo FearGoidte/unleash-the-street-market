@@ -234,6 +234,11 @@ Intra-post navigation
 	left : -1em
 }
 
+.thumbnail {
+	margin : 1.4em auto;
+	max-width : 25em
+}
+
 @media (max-width : 30em) { /* Reposition links on narrow screens */
 	.post-navigation li.next,
 	.post-navigation li.prev,

@@ -3,7 +3,11 @@ title: The trust issue
 tags: placeshaping, placemaking, streetmarket, streetfood, marketmanagement
 description: >
   For people who are not used to shopping on a local market, the retail environment presented by stalls can be disconcerting. There are though, lots of things that you can do to make it a more reassuring experience.
-summary_image: the-trust-issue.jpeg
+thumbnail:
+  url: /images/the-trust-issue.jpeg
+  type: image/jpeg
+  width: 744
+  height: 440
 
 ---
 

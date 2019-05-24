@@ -1,14 +1,24 @@
 ---
 layout: page
+pageable: true
+
 ---
 <h1>Unleash the Street Market</h1>
-<% blog.articles[0...5].each do |article| %>
-	<article>
-		<header>
-			<p><time datetime="<%= article.date.strftime("%F") %>"><%= article.date.strftime('%e %B %Y') %></time></p>
-			<h2><%= article.title %></h2>
-		</header>
-		<%= article.data.description %>
-    <a href="<%= article.url %>#nav_main">Continue reading <cite><%= article.title %></cite></a>.
-  </article>
+<% page_articles[0...5].each_with_index do |article, i| %>
+<%= partial('layouts/partials/article_summaries', locals: { article: article} ) %>
 <% end %>
+
+<div role="navigation" class="post-navigation">
+	<ol class="	">
+	<% if paginate && num_pages > 1 %>
+		<% if prev_page %>
+			<li class="icon prev"><%= link_to 'Previous page', prev_page %></li>
+		<% end %>
+	<% end %>
+	<% if paginate %>
+		<% if next_page %>
+			<li class="icon next "><%= link_to 'Next page', next_page %></li>
+		<% end %>
+	<% end %>
+	</ol>
+</div>
