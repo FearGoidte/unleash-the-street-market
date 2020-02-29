@@ -4,6 +4,8 @@ site:
   name: Unleash The Street Market
   description: >
     Helping street markets to serve their communities, integrate with their high streets, and become self-sustaining.
+  tags: >
+    markets, marketlife, market, marketsmatter, placeshaping, placemaking, streetfood, marketdesign, marketlayout, downthemarket, streetmarket, marketsmatter
   logo:
     url: /images/logo.png
     height: 315

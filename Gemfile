@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # Middleman Gems
-gem "middleman", "~> 4.1"
-gem "middleman-blog"
+gem 'middleman'
+gem 'middleman-blog'
 gem 'middleman-deploy', git: 'https://github.com/middleman-contrib/middleman-deploy.git'
 gem 'middleman-minify-html', git: 'https://github.com/middleman/middleman-minify-html.git'
 

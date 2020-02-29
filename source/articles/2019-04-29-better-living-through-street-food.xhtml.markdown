@@ -1,7 +1,6 @@
 ---
 
 title: Better living through street food
-summary_image:
 tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, placemaking, placeshaping, streetfood, streetfoodmarket, streetfoodmarkets
 published: true
 description: >

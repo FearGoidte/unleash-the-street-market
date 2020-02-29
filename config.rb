@@ -100,6 +100,7 @@ configure :build do
                          '.html',
                          '.js',
                          '.svg',
+                         '.txt',
                          '.xhtml',
                          '.xml'],
                   ignore: ['google*.html']

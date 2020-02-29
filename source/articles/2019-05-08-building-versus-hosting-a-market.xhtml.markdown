@@ -1,7 +1,6 @@
 ---
 
 title: Building versus hosting a market
-summary_image:
 tags: downthemarket, streetmarket, markets, marketlife, market, marketsmatter, placemaking, placeshaping, marketmanagement
 published: true
 description: >

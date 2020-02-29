@@ -1,7 +1,6 @@
 ---
 
 title: "The challenge: apply to trade on your own market"
-summary_image:
 tags: placemaking, placeshaping, marketmanagement, streetmarket, markets
 published: true
 description: >
